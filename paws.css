@@ -1,10 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-html, body {
-	margin:0;
-	padding:0;
-	color: white;
-}
 /*this makes it so things can stretch to the edge of the page
 without the awkward little white border*/
 
@@ -13,49 +8,25 @@ div.logo{
 	padding-left: 20px;
 	padding-top: 10px;
 }
-div.nav ul {
-  list-style: none;
-  font-family: "Montserrat";
-  font-weight: 700;
-  font-size: 15pt;
+a.givelink{
+	margin-left:2vw;
+	background-color: rgba(255, 51, 51, 0.9);
+	border: 1px black dashed;
+	padding:10px;
+	border-radius: 10px;
 }
-
-div.nav ul li {
-  color: #FFA500;
-  display: inline-block;
-  height: 80px;
-  margin: 5px 30px 0px 150px;
-}
-
-div.nav ul li a:visited {
-    color: black;
-}
-
-div.nav ul li a:active {
-    color: #FFA500;
-}
-
-div.nav ul li a.current {
-  color: #000000;
-}
-
-div.adoptheader{
-  width: 104px;
-	padding: 10px 40px ;
+a.adoptlink{
+	border: 1px black dashed;
 	background-color: rgba(255, 153, 51, 0.9);
-	margin-right: 9vw;
-	margin-top: 10px;
+	padding:10px;
 	border-radius: 10px;
 }
-
-div.contactheader{
-  width: 155px;
-  padding: 10px 10px;
-	margin-top: 10px;
+a.contactlink{
+	border: 1px black dashed;
 	background-color: rgba(51, 153, 204, 0.9);
+	padding:10px;
 	border-radius: 10px;
 }
-
 a:link{
 	text-decoration: none;
 	color:black;
@@ -70,80 +41,25 @@ a:active{
 	text-decoration: none;
 	color:black;
 }
-*/
-
-#container{
-	position:relative;
-	z-index: 0;
-}
-
 img.banner{
 	width:100%;
 	margin-bottom: 20px;
 
 }
-
-h2.h2{
-	margin-left:5vw;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	font-family: "Montserrat";
-	font-style: 700;
-	font-size: 45px;
-	width:25%;
-}
-
-div.givesection{
-	width:90%;
-	min-height:400px;
-	margin-right: auto;
-	margin-left:auto;
-	margin-bottom:40px;
-	background-color: rgba(255, 51, 51, 0.9);
-	border-radius: 10px;
-
-}
-div.rightside{
-	float:left;
-	width:45%;
-}
-
-div.leftside{
-	float:left;
-	width:45%;
-}
-
-div.giveparone{
-	clear:left;
-	width:100%;
-	margin-left:3vw;
-}
-
-ul.givelist{
-	width:100%;
-	margin-left: 0;
-}
-
-div.fees{
-	float:left;
-	margin-left: 3vw;
-}
-
 .givepic{
 	float:left;
 	width:40%;
-	margin-left: 150px;
-	margin-right: 5%;
-	margin-bottom: 10px;
+	margin-left: 3vw;
 }
 
 div.donatelink{
+	clear:left;
 	float:left;
-	margin-left:9vw;
+	margin-left:2vw;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
 	background-color: white;
-	margin-right:10%;
-	margin-bottom: 20px;
-	border: 1px black;
+	border: 1px black dashed;
 	padding-right:6px;
 	padding-left:6px;
 	border-radius: 10px; /*this rounds the borders*/
@@ -151,13 +67,14 @@ div.donatelink{
 
 div.volunteerlink{
 	float:left;
-	margin-left:2vw;
-	margin-bottom:20px;
 	background-color: white;
+	margin-left:3vw;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
 	border-radius: 10px;
 	padding-right:6px;
 	padding-left:6px;
-	border:1px black;
+	border:1px black dashed;
 }
 
 div.adoptsection{
@@ -170,32 +87,7 @@ div.adoptsection{
 	border-radius: 10px;
 }
 
-div.adoptleftside{
-	float:left;
-	width:32%;
-	min-height:400px;
-	margin-right: 10px;
-}
 
-div.adoptmiddle{
-	float:left;
-	width:32%;
-	min-height:400px;
-	margin-right: 10px;
-}
-
-div.adoptrightside{
-	float:left;
-	width:33%;
-	min-height:400px;
-
-}
-
-h3.animalshead{
-	padding-left:10px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-}
 
 ul.animallist1{
 	float:left;

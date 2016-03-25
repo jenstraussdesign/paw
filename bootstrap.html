@@ -2,100 +2,179 @@
 <html>
 <head>
 	<title>Philadelphia Animal Welfare Society</title>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-	</script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<script src="main.js"></script>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="paws.css">
   <style>
   *{
-    border: 1px solid black;
-    color: black;
+    color:black;
   }
+
   </style>
 </head>
 
 <body>
   <div class="container-fluid">
-    <header class="row">
-      <div class="logo col-md-3 blue">
+    <header class="row" style="border: 1px black dashed">
+      <div class="logo col-md-3">
         <img src="images/pawslogo.png">
       </div>
-      <div class="nav col-md-3 blue">
-        <a class="givelink" href="#give">GIVE </a>
-      </div>
-      <div class="nav col-md-3 blue">
-        <a class="adoptlink" href="#adopt">ADOPT</a>
-      </div>
-      <div class="nav col-md-3 blue">
-        <a class="contactlink" href="#contact">CONTACT</a>
-      </div>
-    </header>
 
-    <div class="row">
-      <div id="give" class="col-md-4 blue">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <div class="nav col-md-3">
+        <h1>
+          <a class="givelink" href="#give">GIVE</a>
+        </h1>
       </div>
-      <div class="col-md-4 blue">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+      <div class="nav col-md-3">
+        <h1>
+          <a class="adoptlink" href="#adopt">ADOPT</a>
+        </h1>
       </div>
-      <div class="col-md-4 blue">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+      <div class="nav col-md-3">
+        <h1>
+          <a class="contactlink" href="#contact">CONTACT</a>
+        </h1>
+      </div>
+   </header>
+
+
+
+
+
+    <div id="give" class="row" style="border: 1px black dashed">
+      <div class="col-md-4">
+        <h2>GIVE</h2>
+        <p>Animal Rescue, Inc. relies solely on the generosity of donors to fund all projects we offer our community. $.91 of every dollar goes directly to our animal care.</p>
+      </div>
+
+      <div class="col-md-4">
+        <ul class="givelist">
+          <h3 class="h3">Reasons for giving</h3>
+          <li>$2000 can feed our sanctuary’s 600 cats for one month.</li>
+          <li>$1000 can prevent fleas, ticks, and heartworm in our dog population for one month.</li>
+          <li>$500 can provide the necessary bloodwork to diagnose five sick animals.</li>
+          <li>$200 can offer an amputation to a stray pet caught in a fox trap.</li>
+          <li>$75 can spay one stray dog.</li>
+          <li>$50 can treat an abscess on a feral cat.</li>
+          <li>$20 can microchip three pets before they are adopted.</li>
+          <li>$10 can provide a course of antibiotics for a puppy mill survivor with an upper respiratory infection.</li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <img class="givepic" src="https://s.graphiq.com/sites/default/files/stories/t4/The_23_Cutest_Dog_Breeds_Youve_Never_Even_Heard_Of_3219_5026.jpg">
+        
+        <div class="donatelink"><h2><a href="#donate">Donate</a></h2></div>
+
+        <div class="volunteerlink"><h2><a href="#volunteer">Volunteer</a></h2></div>
+      </div>
+
+    </div>
+
+
+
+
+
+    <div id="adopt" class="row" style="border: 1px black dashed">
+      <div class="col-md-4">
+        <h2>ADOPT</h2>
+        <p>Adopting from Animal Rescue, Inc. can be one of the most rewarding experiences of your life.</p>
+        <ul>
+          <h3>Fees:</h3>
+          <li>Puppy/Dog: $220.00</li>
+          <li>Kitten/Cat: $85.00</li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h3>Our Animals</h3>
+        <ul class="animallist1">
+          <li><span style="font-weight:bold">Daisy</span></li>
+          <li><img id="pic" src="images/daisy_1small.jpg"></li>
+          <li><img onclick="updateSelectedMedia(this);" src="images/daisy_2small.jpg"></li>
+          <li><span style="font-weight:bold">Hooper</span></li>
+          <li><img onclick="updateSelectedMedia(this);" src="images/hooper_1small.jpg"></li>
+          <li><img onclick="updateSelectedMedia(this);" src="images/hooper_2small.jpg"></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <ul class="animallist2">
+          <li><span style="font-weight:bold">Lavern</span></li>
+          <li><img onclick="updateSelectedMedia(this);" src="images/lavern_1small.jpg"></li>
+          <li><img onclick="updateSelectedMedia(this);" src="images/lavern_3small.jpg"></li>
+          <li><span style="font-weight:bold">Nina</span></li>
+          <li><img onclick="updateSelectedMedia(this);" src="images/nina_1small.jpg"></li>
+          <li><img onclick="updateSelectedMedia(this);" src="images/nina_2small.jpg"></li>
+        </ul>
       </div>
     </div>
 
-    <div class="row">
-      <div id="adopt" class="col-md-4">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+
+    <div id="contact" class="row" style="border: 1px black dashed">
+      <div class="col-md-6">
+        <h2>CONTACT</h2>
+        <p>Thank you for visiting! Please click 
+          <a href="mailto:someone@example.com?Subject=Hi%20there" target="_top">here</a> 
+          to send an email to one of our staff members.
+        </p>
+        <p>Please note: PAWS rescues as many animals from the city’s animal control shelter as we have room for on a daily basis and remains full at all times. (Animals at the city’s high-volume shelter are all in danger of being killed.) Therefore, we typically do not take in animals from the public. However, if you have adopted an animal from PAWS that you cannot or will not keep, you must return it to us.
+        </p>
+        <p>If you cannot or will not keep your pet: We strongly urge you to re-home the animal yourself rather than surrender it to a shelter. Ask your friends and family, post fliers in your neighborhood, post listings on free web sites such as Craigslist, Facebook, etc., or contact breed-specific rescues (if applicable) to see if they can assist you. Charging a small re-homing fee and checking vet references are good ways to help screen applicants and find a good home for your pet.
+        </p>
       </div>
-      <div class="col-md-4">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-      <div class="col-md-4">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
+
+      <div class="col-md-6">
+        <p>If you have absolutely no other options, you must bring your pet to your county’s animal control shelter. Please do this only as a last resort, as animals turned in to these facilities may be euthanized (put to sleep, killed). For Philadelphia residents, animal control is performed by:
+        </p>
+        <p>Animal Care and Control Team (ACCT)<br>
+        111 West Hunting Park Avenue<br>
+        Philadelphia, PA 19140<br>
+        Ph: 267-385-3800<br>
+        <a href="www.acctphilly.org">www.acctphilly.org</a>
+        </p>
+        <p>If you suspect animal cruelty, neglect, or abuse: Please report it to the PSPCA by calling 1-866-601-SPCA or emailing <a href="cruelty@pspca.org">cruelty@pspca.org</a>.
+        </p>
+      </div>  
     </div>
 
-    <div class="row">
-      <div id="contact" class="col-md-4">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-      <div class="col-md-4">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-      <div class="col-md-4">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
 
-    <div class="bottom">
-      <div class="container">
+
+    <div class="row">
         <div class="col-md-4">
-          <strong>OLD CITY ADOPTION CENTER</strong>
-  				<br>100 N. 2nd Street (at Arch)</br>
-  				<b>Philadelphia, PA 19106</br>
-  					<b>Ph: 215-238-9901</br>
-  						<br>Email: <a href="mailto:adopts@phillypaws.org">adoptions@phillypaws.org</a></p>
+          <strong>OLD CITY ADOPTION CENTER</strong><br>
+  				100 N. 2nd Street (at Arch)
+  				Philadelphia, PA 19106<br>
+  				Ph: 215-238-9901<br>
+  				Email: <a href="mailto:adopts@phillypaws.org">adoptions@phillypaws.org</a><br>
   						<a href="http://phillypaws.org/locations/adoption-center/">Learn more</a>
         </div>
+
         <div class="col-md-4">
-          <strong>SPAY/NEUTER AND WELLNESS CLINIC</strong>
-          <br>2900 Grays Ferry Avenue</br>
-          <b>Philadelphia, PA 19146</br>
-            <b>Ph: 215-298-9680</br>
-              <br>Email: <a href="mailto:gfclinic@phillypaws.org">gfclinic@phillypaws.org</a></p>
-              <a href="http://phillypaws.org/locations/spayneuter-wellness-clinic/">Learn more</a>
+          <strong>SPAY/NEUTER AND WELLNESS CLINIC</strong><br>
+          2900 Grays Ferry Avenue<br>
+          Philadelphia, PA 19146<br>
+          Ph: 215-298-9680<br>
+          Email: <a href="mailto:gfclinic@phillypaws.org">gfclinic@phillypaws.org</a><br>
+          <a href="http://phillypaws.org/locations/spayneuter-wellness-clinic/">Learn more</a>
         </div>
+
         <div class="col-md-4">
           <strong>NE ADOPTION CENTER & LOW-COST CLINIC</strong>
-          <br>1810 Grant Avenue</br>
-          <b>Philadelphia, PA 1911</br>
-            <b>Ph: 215-545-9600</br>
-              <br>Email: <a href="mailto:neclinic@phillypaws.org">neclinic@phillypaws.org</a></p>
-              <a href="http://phillypaws.org/locations/northeast/">Learn more</a>
+          1810 Grant Avenue<br>
+          Philadelphia, PA 1911<br>
+          Ph: 215-545-9600<br>
+          Email: <a href="mailto:neclinic@phillypaws.org">neclinic@phillypaws.org</a><br>
+          <a href="http://phillypaws.org/locations/northeast/">Learn more</a>
         </div>
+
       </div>
-    </div>
+
   </div>
 </body>
