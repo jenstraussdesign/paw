@@ -7,37 +7,40 @@ html, body {
 }
 /*this makes it so things can stretch to the edge of the page
 without the awkward little white border*/
-div.nav{
-	position:relative;
-	z-index: 3;
-}
+
 div.logo{
 	float: left;
-	padding-left: 10px;
+	padding-left: 20px;
 	padding-top: 10px;
-/*f	margin-left: auto;*/
-/*f	margin-right: auto;
-	width:411px;
-	padding-bottom: 15px;
-	/*float: left;*/
-	/*I think we should make the logo go on the left, and have the links lined up next to the logo, thoughts ? - w */
+}
+div.nav ul {
+  list-style: none;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 15pt;
 }
 
-div.giveheader{
-    float: left;
-    width: 84px;
-    padding: 10px 40px ;
-    margin-left: 9vw;
-    margin-right: 9vw;
-	margin-top: 10px;
-	padding-top: 10px;
-	background-color: rgba(255, 51, 51, 0.9);
-	border-radius: 10px;
+div.nav ul li {
+  color: #FFA500;
+  display: inline-block;
+  height: 80px;
+  margin: 5px 30px 0px 150px;
+}
+
+div.nav ul li a:visited {
+    color: black;
+}
+
+div.nav ul li a:active {
+    color: #FFA500;
+}
+
+div.nav ul li a.current {
+  color: #000000;
 }
 
 div.adoptheader{
-    float: left;
-    width: 104px;
+  width: 104px;
 	padding: 10px 40px ;
 	background-color: rgba(255, 153, 51, 0.9);
 	margin-right: 9vw;
@@ -46,9 +49,8 @@ div.adoptheader{
 }
 
 div.contactheader{
-    float: left;
-    width: 155px;
-    padding: 10px 10px;
+  width: 155px;
+  padding: 10px 10px;
 	margin-top: 10px;
 	background-color: rgba(51, 153, 204, 0.9);
 	border-radius: 10px;
@@ -68,6 +70,7 @@ a:active{
 	text-decoration: none;
 	color:black;
 }
+*/
 
 #container{
 	position:relative;
@@ -84,10 +87,10 @@ h2.h2{
 	margin-left:5vw;
 	margin-bottom: 10px;
 	margin-top: 10px;
-	font-family: "Montserrat 700";
+	font-family: "Montserrat";
+	font-style: 700;
 	font-size: 45px;
 	width:25%;
-	float:left;
 }
 
 div.givesection{
@@ -185,7 +188,7 @@ div.adoptrightside{
 	float:left;
 	width:33%;
 	min-height:400px;
-	
+
 }
 
 h3.animalshead{
@@ -248,16 +251,14 @@ div.contactparone{
 }
 #body {
    padding:10px;
-   padding-bottom:60px;   /* Height of the footer */
 }
-#footer {
+footer {
    position:absolute;
-   bottom: 0, auto;
    width:100%;
-   height:280px;   /* Height of the footer */
    background:#6cf;
 	 text-align: center;
-	 padding-bottom: 10px;
+	 font-family: "Montserrat";
+   font-weight: 400;
 }
 
 #footerContact li {

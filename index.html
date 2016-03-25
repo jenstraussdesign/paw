@@ -2,151 +2,184 @@
 <html>
 <head>
 	<title>Philadelphia Animal Welfare Society</title>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
-	</script>
-	<script src="main.js"></script>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="paws.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+		<script src="main.js"></script>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="paws.css">
 </head>
+
 <body>
-	<div class="logo">
-		<img src="images/pawslogo.png">
-	</div>
-	<div class="nav">
-	<div class="giveheader"><h1><a class="givelink"href="#give">GIVE </a></h1></div>
+	<div class="container">
+		<div id="firstRow" class="row">
+			<div class="col-md-12 header">
+				<div class="wrapper">
+						<div class="header">
+							<div class="logo"> <img src="images/pawslogo.png">
+							</div>
 
-	<div class="adoptheader"><h1><a class="adoptlink" href="#adopt">ADOPT</a><h1></div>
+							<div class="nav">
+								<ul>
+									<li><a href="giveheader"><h1><a class="givelink" href="#give">GIVE </a></h1></li>
+									<li><a href="adoptheader"><h1><a class="adoptlink" href="#adopt">ADOPT</a><h1></li>
+									<li><a href="contactheader"><h1><a class="contactlink" href="#contact">CONTACT</a><h1></li>
+								</ul>
+						</div>
+						</div>
+				</div>
+			</div>
+		</div>
 
-	<div class="contactheader"><h1><a class="contactlink" href="#contact">CONTACT</a><h1></div>
-
-	</div>
 	<div onload="slideA()" id="container">
 		<img id="img" class="banner" src="images/img1.jpg"/>
 	</div>
+</div>
+</div>
 
-	<div id="give" class="givesection">
-		<div class="leftside">
-		<h2 class="h2">GIVE</h2>
-		<div class="giveparone">
-			<p>Animal Rescue, Inc. relies solely on the generosity of donors to fund all projects we offer our community. $.91 of every dollar goes directly to our animal care.</p></div>
-			<ul class="givelist">
-				<h3 class="h3">Reasons for giving</h3>
-				<li>$2000 can feed our sanctuary’s 600 cats for one month.</li>
-				<li>$1000 can prevent fleas, ticks, and heartworm in our dog population for one month.</li>
-				<li>$500 can provide the necessary bloodwork to diagnose five sick animals.</li>
-				<li>$200 can offer an amputation to a stray pet caught in a fox trap.</li>
-				<li>$75 can spay one stray dog.</li>
-				<li>$50 can treat an abscess on a feral cat.</li>
-				<li>$20 can microchip three pets before they are adopted.</li>
-				<li>$10 can provide a course of antibiotics for a puppy mill survivor with an upper respiratory infection.</li>
-			</ul>
+<div class="col-md-12">
+	<div id="firstRow" class="row">
+		<div class="col-md-3">
+			<div id="give" class="givesection">
+				<h2 class="h2">GIVE</h2>
+					<div class="giveparone">
+						<p>Animal Rescue, Inc. relies solely on the generosity of donors to fund all projects we offer our community. $.91 of every dollar goes directly to our animal care.</p>
+					</div>
+
+				<ul class="givelist">
+					<h3 class="h3">Reasons for giving</h3>
+					<li>$2000 can feed our sanctuary’s 600 cats for one month.</li>
+					<li>$1000 can prevent fleas, ticks, and heartworm in our dog population for one month.</li>
+					<li>$500 can provide the necessary bloodwork to diagnose five sick animals.</li>
+					<li>$200 can offer an amputation to a stray pet caught in a fox trap.</li>
+					<li>$75 can spay one stray dog.</li>
+					<li>$50 can treat an abscess on a feral cat.</li>
+					<li>$20 can microchip three pets before they are adopted.</li>
+					<li>$10 can provide a course of antibiotics for a puppy mill survivor with an upper respiratory infection.</li>
+				</ul>
+			</div>
 		</div>
-		<div class="rightside">
-		<img class="givepic" src="https://s.graphiq.com/sites/default/files/stories/t4/The_23_Cutest_Dog_Breeds_Youve_Never_Even_Heard_Of_3219_5026.jpg">
-
-		<div class="donatelink"><h2><a href="#donate">Donate</a></h2></div>
-
-		<div class="volunteerlink"><h2><a href="#volunteer">Volunteer</a></h2></div>
-	</div>
 	</div>
 
-<div id="adopt" class="adoptsection">
-	<div class="adoptleftside">
-	<h2 class="h2">ADOPT</h2>
-	<div class="adoptparone">
-		<p>Adopting from Animal Rescue, Inc. can be one of the most rewarding experiences of your life.</p></div>
-		<ul class="adoptlist"> <h3>Fees:</h3>
-			<li>Puppy/Dog: $220.00</li>
-			<li>Kitten/Cat: $85.00</li>
-		</ul>
-	</div>
-	<div class="adoptmiddle">
-		<h3 class="animalshead">Our Animals</h3>
-		<ul class="animallist1">
-			<li><span style="font-weight:bold">Daisy</span></li>
-			<li><img id="pic" src="images/daisy_1small.jpg"></li>
-			<li><img onclick="updateSelectedMedia(this);" src="images/daisy_2small.jpg"></li>
-			<li><span style="font-weight:bold">Hooper</span></li>
-			<li><img onclick="updateSelectedMedia(this);" src="images/hooper_1small.jpg"></li>
-			<li><img onclick="updateSelectedMedia(this);" src="images/hooper_2small.jpg"></li>
-		</ul>
-	</div>
-	<div class="adoptrightside">
-		<ul class="animallist2">
-			<li><span style="font-weight:bold">Lavern</span></li>
-			<li><img onclick="updateSelectedMedia(this);" src="images/lavern_1small.jpg"></li>
-			<li><img onclick="updateSelectedMedia(this);" src="images/lavern_3small.jpg"></li>
-			<li><span style="font-weight:bold">Nina</span></li>
-			<li><img onclick="updateSelectedMedia(this);" src="images/nina_1small.jpg"></li>
-			<li><img onclick="updateSelectedMedia(this);" src="images/nina_2small.jpg"></li>
-		</ul>
+	<div id="firstRow" class="row">
+		<div class="col-md-3">
+			<img class="givepic" src="https://s.graphiq.com/sites/default/files/stories/t4/The_23_Cutest_Dog_Breeds_Youve_Never_Even_Heard_Of_3219_5026.jpg">
+
+			<div class="donatelink"><h2><a href="#donate">Donate</a></h2>
+			</div>
+			<div class="volunteerlink"><h2><a href="#volunteer">Volunteer</a></h2>
+			</div>
+		</div>
 	</div>
 </div>
 
-<div id="contact" class="contactsection">
- <h2 class="h2">Contact</h2>
- <div class="contactparone">
-	 <p>
-		 Thank you for visiting! Please click <a href="mailto:someone@example.com?Subject=Hi%20there" target="_top">here</a> to send an email to one of our staff members.
-	 </p>
-
-	 <p>
-		 Please note: PAWS rescues as many animals from the city’s animal control shelter as we have room for on a daily basis and remains full at all times. (Animals at the city’s high-volume shelter are all in danger of being killed.) Therefore, we typically do not take in animals from the public. However, if you have adopted an animal from PAWS that you cannot or will not keep, you must return it to us.
-	 </p>
-
-	 <p>
-		 If you cannot or will not keep your pet: We strongly urge you to re-home the animal yourself rather than surrender it to a shelter. Ask your friends and family, post fliers in your neighborhood, post listings on free web sites such as Craigslist, Facebook, etc., or contact breed-specific rescues (if applicable) to see if they can assist you. Charging a small re-homing fee and checking vet references are good ways to help screen applicants and find a good home for your pet.
-	 </p>
-
-	 <p>
-		 If you have absolutely no other options, you must bring your pet to your county’s animal control shelter. Please do this only as a last resort, as animals turned in to these facilities may be euthanized (put to sleep, killed). For Philadelphia residents, animal control is performed by:
-	 <p>
-
-	 <p>
-		 Animal Care and Control Team (ACCT)
-		 111 West Hunting Park Avenue
-		 Philadelphia, PA 19140
-		 Ph: 267-385-3800
-		 www.acctphilly.org
-	 </p>
-
-	 <p>
-		 If you suspect animal cruelty, neglect, or abuse: Please report it to the PSPCA by calling 1-866-601-SPCA or emailing cruelty@pspca.org.
-	 </p>
-
- </div>
+	<div id="secondRow" class="row">
+		<div class="col-md-3">
+			<div id="adopt" class="adoptsection">
+					<h2 class="h2">ADOPT</h2>
+						<div class="adoptparone">
+							<p>Adopting from Animal Rescue, Inc. can be one of the most rewarding experiences of your life.</p>
+						</div>
+						<ul class="adoptlist"> <h3>Fees:</h3>
+								<li>Puppy/Dog: $220.00</li>
+								<li>Kitten/Cat: $85.00</li>
+						</ul>
+				</div>
+			<div class="adoptmiddle">
+					<h3 class="animalshead">Our Animals</h3>
+					<ul class="animallist1">
+						<li><span style="font-weight:bold">Daisy</span></li>
+						<li><img id="pic" src="images/daisy_1small.jpg"></li>
+						<li><img onclick="updateSelectedMedia(this);" src="images/daisy_2small.jpg"></li>
+						<li><span style="font-weight:bold">Hooper</span></li>
+						<li><img onclick="updateSelectedMedia(this);" src="images/hooper_1small.jpg"></li>
+						<li><img onclick="updateSelectedMedia(this);" src="images/hooper_2small.jpg"></li>
+					</ul>
+			</div>
+			<div class="adoptrightside">
+				<ul class="animallist2">
+					<li><span style="font-weight:bold">Lavern</span></li>
+					<li><img onclick="updateSelectedMedia(this);" src="images/lavern_1small.jpg"></li>
+					<li><img onclick="updateSelectedMedia(this);" src="images/lavern_3small.jpg"></li>
+					<li><span style="font-weight:bold">Nina</span></li>
+					<li><img onclick="updateSelectedMedia(this);" src="images/nina_1small.jpg"></li>
+					<li><img onclick="updateSelectedMedia(this);" src="images/nina_2small.jpg"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 </div>
 
-<div id="footer">
- <ul id="footerContact">
-		 <li>
-			<div>OLD CITY ADOPTION CENTER</div>
-				<br>100 N. 2nd Street (at Arch)</br>
-				<b>Philadelphia, PA 19106</br>
-				<b>Ph: 215-238-9901</br>
-				<br>Email: <a href="mailto:adopts@phillypaws.org">adoptions@phillypaws.org</a></p>
-				<a href="http://phillypaws.org/locations/adoption-center/">Learn more</a>
-		</li>
+<div class="col-md-6">
+	<div id="contact" class="contactsection">
+ 	<h2 class="h2">Contact</h2>
+		 <div class="contactparone">
+			 <p>
+				 Thank you for visiting! Please click <a href="mailto:someone@example.com?Subject=Hi%20there" target="_top">here</a> to send an email to one of our staff members.
+			 </p>
 
-		<li>
-			<div><span style="font-weight:normal">SPAY/NEUTER AND WELLNESS CLINIC</span></div>
-				 <br>2900 Grays Ferry Avenue</br>
-				 <b>Philadelphia, PA 19146</br>
-				 <b>Ph: 215-298-9680</br>
-				 <br>Email: <a href="mailto:gfclinic@phillypaws.org">gfclinic@phillypaws.org</a></p>
-				 <a href="http://phillypaws.org/locations/spayneuter-wellness-clinic/">Learn more</a>
-		</li>
+			 <p>
+				 Please note: PAWS rescues as many animals from the city’s animal control shelter as we have room for on a daily basis and remains full at all times. (Animals at the city’s high-volume shelter are all in danger of being killed.) Therefore, we typically do not take in animals from the public. However, if you have adopted an animal from PAWS that you cannot or will not keep, you must return it to us.
+			 </p>
 
-	 	<li>
-		 	<div><span style="font-weight:normal">NE ADOPTION CENTER & LOW-COST CLINIC</span></div>
-		 		<br>1810 Grant Avenue</br>
-		 		<b>Philadelphia, PA 1911</br>
-		 		<b>Ph: 215-545-9600</br>
-		 		<br>Email: <a href="mailto:neclinic@phillypaws.org">neclinic@phillypaws.org</a></p>
-		 		<a href="http://phillypaws.org/locations/northeast/">Learn more</a>
-	 	</li>
- </ul>
+			 <p>
+				 If you cannot or will not keep your pet: We strongly urge you to re-home the animal yourself rather than surrender it to a shelter. Ask your friends and family, post fliers in your neighborhood, post listings on free web sites such as Craigslist, Facebook, etc., or contact breed-specific rescues (if applicable) to see if they can assist you. Charging a small re-homing fee and checking vet references are good ways to help screen applicants and find a good home for your pet.
+			 </p>
+
+			 <p>
+				 If you have absolutely no other options, you must bring your pet to your county’s animal control shelter. Please do this only as a last resort, as animals turned in to these facilities may be euthanized (put to sleep, killed). For Philadelphia residents, animal control is performed by:
+			 <p>
+
+			 <p>
+				 Animal Care and Control Team (ACCT)
+				 111 West Hunting Park Avenue
+				 Philadelphia, PA 19140
+				 Ph: 267-385-3800
+				 www.acctphilly.org
+			 </p>
+
+			 <p>
+				 If you suspect animal cruelty, neglect, or abuse: Please report it to the PSPCA by calling 1-866-601-SPCA or emailing cruelty@pspca.org.
+			 </p>
+
+ 			</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 
 </body>
+<footer>
+	<div class="col-md-12">​
+	 <ul id="footerContact">
+			 <li>
+				<div><strong>OLD CITY ADOPTION CENTER</strong></div>
+					<br>100 N. 2nd Street (at Arch)</br>
+					<b>Philadelphia, PA 19106</br>
+					<b>Ph: 215-238-9901</br>
+					<br>Email: <a href="mailto:adopts@phillypaws.org">adoptions@phillypaws.org</a></p>
+					<a href="http://phillypaws.org/locations/adoption-center/">Learn more</a>
+			</li>
+
+			<li>
+				<div><strong>SPAY/NEUTER AND WELLNESS CLINIC</strong></div>
+					 <br>2900 Grays Ferry Avenue</br>
+					 <b>Philadelphia, PA 19146</br>
+					 <b>Ph: 215-298-9680</br>
+					 <br>Email: <a href="mailto:gfclinic@phillypaws.org">gfclinic@phillypaws.org</a></p>
+					 <a href="http://phillypaws.org/locations/spayneuter-wellness-clinic/">Learn more</a>
+			</li>
+
+		 	<li>
+			 	<div><strong>NE ADOPTION CENTER & LOW-COST CLINIC</strong></div>
+			 		<br>1810 Grant Avenue</br>
+			 		<b>Philadelphia, PA 1911</br>
+			 		<b>Ph: 215-545-9600</br>
+			 		<br>Email: <a href="mailto:neclinic@phillypaws.org">neclinic@phillypaws.org</a></p>
+			 		<a href="http://phillypaws.org/locations/northeast/">Learn more</a>
+		 	</li>
+	 </ul>
+	</div>
+</footer>
 </html>
