@@ -104,57 +104,9 @@ ul.animallist2{
 	list-style-type: none;
 }
 
-div.adoptparone{
-	clear:left;
-	width:90%;
-	margin-left:3vw;
-}
-
-.bigpic {
-	z-index: 10;
-}
-
 ul.fees{
 	width:100%;
 	margin-left: 0;
 	margin-top: 5px;
 }
 
-div.contactsection{
-	border-radius: 10px;
-	background-color: rgba(51, 153, 204, 0.9);
-	clear:left;
-	width:90%;
-	margin-bottom: 40px;
-	margin-right: auto;
-	margin-left:auto;
-	min-height: 500px;
-}
-
-div.contactparone{
-	float:left;
-	width:90%;
-	margin-left:3vw;
-}
-
-#header {
-   background: yellow;
-   padding:10px;
-}
-#body {
-   padding:10px;
-}
-footer {
-   position:absolute;
-   width:100%;
-   background:#6cf;
-	 text-align: center;
-	 font-family: "Montserrat";
-   font-weight: 400;
-}
-
-#footerContact li {
-  display: inline-block;
-	list-style-type: none;
-	margin: 30px;
-}
