@@ -5,25 +5,6 @@ div.logo{
 	padding-left: 20px;
 	padding-top: 10px;
 }
-a.givelink{
-	margin-left:2vw;
-	background-color: rgba(255, 51, 51, 0.9);
-	border: 1px black dashed;
-	padding:10px;
-	border-radius: 10px;
-}
-a.adoptlink{
-	border: 1px black dashed;
-	background-color: rgba(255, 153, 51, 0.9);
-	padding:10px;
-	border-radius: 10px;
-}
-a.contactlink{
-	border: 1px black dashed;
-	background-color: rgba(51, 153, 204, 0.9);
-	padding:10px;
-	border-radius: 10px;
-}
 .navbar-fixed {
     top: 0;
     z-index: 100;
@@ -118,10 +99,11 @@ ul.fees{
 nav ul{
 	display: flex;
 	flex-wrap: wrap;
-	max-width: 1080px;
+	max-width: 72-px;
 	margin: 0 auto;
 	list-style: none;
 	padding: 0;
+	background-color:rgba(255, 255, 255, 0.7);
 }
 nav ul,
 nav li{
@@ -135,7 +117,7 @@ nav a{
 	font-size: 1.8rem;
 }
 nav a:hover{
-	background: #adacac;
+	background: rgba(166, 166, 166,.9);
 	color: #fff;
 }
 nav li{
@@ -145,7 +127,7 @@ nav li{
 	text-align: center;
 }
 nav input,
-nav label{
+nav label{ /*this is the menu icon*/
 	display: none;
 	width: 36px;
 	height: 36px;
@@ -156,34 +138,45 @@ nav label{
 	font-size: 1.6rem;
 	border-radius: 4px;
 }
+
+/*these are the burger menu icon properties*/
 nav label{position: absolute; top: 8px; right: 8px; transition: .4s;}
 nav label:hover{cursor:pointer;}
 nav label:before{
 	font-family: FontAwesome;
 	font-size: 24px;
-	content: "\f0c9";
+	content: "|||";
+	display: inline-block;
+  	-webkit-transform: rotate(90deg);
+  	-moz-transform: rotate(90deg);
+  	-o-transform: rotate(90deg);
+  	-ms-transform: rotate(90deg);
+  	transform: rotate(90deg);
 	text-align: center;
 }
 
 /*************** MEDIA QUERIES *******************/
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 720px){
 	nav ul{
 		display: none;
 		box-shadow: 0 0 5px rgba(0,0,0, .7);
+		margin-right: -6%;
+		width: 20%;
 	}
 	nav li{
-		flex: none;
-		width: 100%;
-		border-bottom: solid 1px #777;
+		width: 60%;
+		float:left;
+		background-color:rgba(255, 255, 255, 0.7);
+		line-height: 200%;
+		font-size: 80%;
 	}
 	nav input[type="checkbox"]:checked + ul{
 		display: block;
-		width: 100%;
-		background: #999;
+		width: 200px;
 	}
 	nav label{display: block;}
 	nav input[type="checkbox"]:checked + ul li:nth-child(1){
-		background: #777;
 		color: #fff;
+		display:inline;
 	}
 }

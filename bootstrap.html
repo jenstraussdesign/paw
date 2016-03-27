@@ -17,43 +17,21 @@
 
 <body>
   <div class="container-fluid">
-    <header class="row" style="border: 1px black dashed">
-      <div class="logo col-md-3">
-        <img src="images/pawslogo.png">
-      </div>
-
-    <nav id="nav_bar">
-      <input type="checkbox" id="css-toggle-menu" name="css-toggle-menu">
-      <ul class="main">
-        <li><a href="">Home</a></li>
-        <li><a href="#give">Give</a></li>
-        <li><a href="#adopt">Adopt</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+    <header class="row">
+      <nav id="nav_bar" class="navbar-fixed">
+        <input type="checkbox" id="css-toggle-menu" name="css-toggle-menu">
+        <ul>
+          <li><img src="images/pawslogo.png" height="50px"></li>
+          <li><a href="#home">Home</a></li>
+          <li><a class="givelink" href="#give">Give</a></li>
+          <li><a class="adoptlink" href="#adopt">Adopt</a></li>
+          <li><a class="contactlink" href="#contact">Contact</a></li>
+        </ul>
          <label for="css-toggle-menu" id="css-toggle-menu"></label>
     </nav>
-
-    <!--
-      <div class="nav col-md-3">
-        <h1>
-          <a class="givelink" href="#give">GIVE</a>
-        </h1>
-      </div>
-
-      <div class="nav col-md-3">
-        <h1>
-          <a class="adoptlink" href="#adopt">ADOPT</a>
-        </h1>
-      </div>
-
-      <div class="nav col-md-3">
-        <h1>
-          <a class="contactlink" href="#contact">CONTACT</a>
-        </h1>
-      </div> -->
    </header>
 
-   <div onload="slideA()" id="container">
+   <div onload="slideA()" id="home">
     <img id="img" class="banner" src="images/img1.jpg"/>
   </div>
 
