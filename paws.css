@@ -95,28 +95,52 @@ div.volunteerlink:hover{
 	background-color: rgba(255, 153, 51, 0.9);
 }
 #adopt{
-	margin-top:3vw;
+	margin-top:6vw;
 }
-ul.fees{
+.adoptpar{
+	margin-top:2vw;
+}
+h3.foster{
 	margin-top: 3vw;
-	margin-left:-2vw;
 }
-ul.animallist1{
-	float:left;
-	margin-left:20%;
-	line-height: 150%;
-	list-style-type: none;
+h3.animals{
+	margin-left:2vw;
 }
-
-ul.animallist2{
-	float:left;
-	margin-top:15%;
-	margin-left:20%;
-	line-height: 150%;
-	list-style-type: none;
+#MainDiv{
+    position: relative;
+    width:450px;
+    margin-top: 2vw;
+    margin-left:2vw;
+}
+#child .NextButton{
+    position: absolute;
+    top: 50%;
+    right: 2%;
+}
+#child .PreButton{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+#slider{
+    width: 450px;
+    overflow: hidden;
+    position: relative;
+    margin-left:2vw;
+}
+#slider .slides{
+    display: block;
+    width: 8000px;
+    margin: 0;
+    padding: 0;
+}
+#slider .slide{
+	float: left;
+    list-style-type: none;
+    height:120px;
 }
 #volunteer{
-	margin-top:3vw;
+	margin-top:6vw;
 }
 div.volsection{
 	margin-top:2vw;
@@ -126,7 +150,7 @@ iframe.youtube2{
 	margin-bottom:2vw;
 }
 #contact{
-	margin-top:3vw;
+	margin-top:6vw;
 }
 div.locations{
 	text-align: center;
