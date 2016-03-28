@@ -33,19 +33,27 @@
 
    <div onload="slideA()" id="home">
     <img id="img" class="banner" src="images/img1.jpg"/>
+    <div class="title">
+      <h1>Philadelphia Animal Welfare Society</h1>
+    </div>
   </div>
+
 
 <!-- GIVE -->
     <div id="give" class="row" style="border: 1px black dashed">
       <div class="col-md-4">
         <h2>GIVE</h2>
-        <p>Animal Rescue, Inc. relies solely on the generosity of donors to fund all projects we offer our community. $.91 of every dollar goes directly to our animal care.</p>
+        <p class="givepar">Animal Rescue, Inc. relies solely on the generosity of donors to fund all projects we offer our community. $.91 of every dollar goes directly to our animal care.</p>
+        <p class="givepar">PAWS is 100% donor funded, so every life we save truly depends on the generosity and commitment of our supporters. We spend $0.91 of every dollar directly on lifesaving efforts, animal care, and related programs to further our mission of making Philadelphia a place where every healthy and treatable pet is guaranteed a home.</p>
+        <p class="givepar">What better gift for the animal lover on your list? Donate in honor of a loved one, and we'll send a card featuring rescued PAWS animals to notify them of your thoughtfulness. </p>
+
+
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 givemiddle">
         <ul class="givelist">
           <h3 class="h3">Reasons for giving</h3>
-          <li>$2000 can feed our sanctuary’s 600 cats for one month.</li>
+          <li class="toplistitem">$2000 can feed our sanctuary’s 600 cats for one month.</li>
           <li>$1000 can prevent fleas, ticks, and heartworm in our dog population for one month.</li>
           <li>$500 can provide the necessary bloodwork to diagnose five sick animals.</li>
           <li>$200 can offer an amputation to a stray pet caught in a fox trap.</li>
@@ -57,33 +65,37 @@
       </div>
 
       <div class="col-md-4">
-        <img class="givepic" src="https://s.graphiq.com/sites/default/files/stories/t4/The_23_Cutest_Dog_Breeds_Youve_Never_Even_Heard_Of_3219_5026.jpg">
+        <iframe class="youtube1" width="420" height="236" src="https://www.youtube.com/embed/iGkOZ1C8cXk" frameborder="0" allowfullscreen></iframe>
 
         <div class="donatelink">
-          <h2><a href="#donate">Donate</a></h2>
+          <h2><a href="https://www.z2systems.com/np/clients/phillypaws/donation.jsp" target="_blank">Donate</a></h2>
         </div>
 
         <div class="volunteerlink">
-          <h2><a href="#volunteer">Volunteer</a></h2>
+          <h2><a href="http://phillypaws.org/volunteer/" target="_blank">Volunteer</a></h2>
         </div>
       </div>
 
     </div>
 
-<!-- ADOPT -->
 
+<!-- ADOPT -->
     <div id="adopt" class="row" style="border: 1px black dashed">
-      <div class="col-md-4">
+      <div class="col-md-6">
         <h2>ADOPT</h2>
         <p>Adopting from Animal Rescue, Inc. can be one of the most rewarding experiences of your life.</p>
-        <ul>
+        <p>When you adopt a new best friend from PAWS, you are saving a life that might not have had a chance without your kindness. The first step is to fill out our adoption application, which is available here or at any of our adoption locations.</p>
+        <p>Applications generally take 24-48 hours for approval. There is a possibility for same day adoption, but we cannot guarantee it. Please present your application at a PAWS Adoption Center in person at least one hour prior to closing time. You may also mail it to 100 N. 2nd Street, Philadelphia, PA 19106 or email it to <a class="mail" href="mailto:adoptions@phillypaws.org">adoptions@phillypaws.org</a>.</p>
+
+        <ul class="fees">
           <h3>Fees:</h3>
           <li>Puppy/Dog: $220.00</li>
           <li>Kitten/Cat: $85.00</li>
         </ul>
+
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-6">
         <h3>Our Animals</h3>
         <ul class="animallist1">
           <li><span style="font-weight:bold">Daisy</span></li>
@@ -95,7 +107,7 @@
         </ul>
       </div>
 
-      <div class="col-md-4">
+<!--       <div class="col-md-4">
         <ul class="animallist2">
           <li><span style="font-weight:bold">Lavern</span></li>
           <li><img onclick="updateSelectedMedia(this);" src="images/lavern_1small.jpg"></li>
@@ -104,31 +116,36 @@
           <li><img onclick="updateSelectedMedia(this);" src="images/nina_1small.jpg"></li>
           <li><img onclick="updateSelectedMedia(this);" src="images/nina_2small.jpg"></li>
         </ul>
-      </div>
+      </div> -->
     </div>
 
-<!-- DONATE -->
-    <div id="DONATE" class="row" style="border: 1px black dashed">
-      <div class="col-md-4">
-        <h2>DONATE</h2>
-      </div>
-    </DIV>
+
 
 <!-- VOLUNTEER -->
     <div id="volunteer" class="row" style="border: 1px black dashed">
-      <div class="col-md-12">
+      <div class="col-md-6">
         <h2>VOLUNTEER</h2>
           <p>Our dedicated volunteers mean the difference between life and death for Philadelphia’s homeless animals. Whether you help at adoption events, socialize or bathe animals at the shelter, transport them to foster homes or adoption locations, or provide administrative support, your time and compassion will make a tremendous difference in the lives of the animals who depend on us. We have volunteer opportunities to fit every schedule and preference. Please join us!</p>
 
-          <center><img src="images/paws_booth.jpg"></center>
+          <iframe class="youtube2" width="560" height="315" src="https://www.youtube.com/embed/ezURdkyziic" frameborder="0" allowfullscreen></iframe>
+      </div>
 
-          <strong>ARE YOU A CURRENT PAWS VOLUNTEER?</strong>
-          <p>Thank you for spending your free time with us! You can click <a href="http://phillypaws.org/volunteer/application/">here</a> to log-in to schedule a shift or to sign-up for an event.</p>
+      <div class="col-md-6 vol">
+          <div class="volsection"><strong>ARE YOU A CURRENT PAWS VOLUNTEER?</strong>
+          <p>Thank you for spending your free time with us! You can click <a href="http://phillypaws.org/volunteer/application/">here</a> to log-in to schedule a shift or to sign-up for an event.</p></div>
 
-          <strong>INTERESTED IN BECOMING A PAWS VOLUNTEER?</strong>
-          <p>Getting started is simple! Just click here to fill out a brief application. Once we receive it, we’ll email you to schedule an orientation (please be sure to check your spam/junk mail folder if you don’t see anything from us within 48 hours!). We look forward to having you join our community.</p>
+          <div class="volsection">
+            <strong>INTERESTED IN BECOMING A PAWS VOLUNTEER?</strong>
+            <p>Getting started is simple! Just click here to fill out a brief application. Once we receive it, we’ll email you to schedule an orientation (please be sure to check your spam/junk mail folder if you don’t see anything from us within 48 hours!). We look forward to having you join our community.</p>
+             <p>If you are applying for an internship at PAWS, please contact Allison Lamond at <a href="mailto:allison@phillypaws.org">allison@phillypaws.org</a> before filling out a volunteer application.</p>
+          </div>
 
-          <p>If you are applying for an internship at PAWS, please contact Allison Lamond at <a href="mailto:allison@phillypaws.org">allison@phillypaws.org</a> before filling out a volunteer application.</p>
+         
+          <div class="volsection">
+            <strong>VOLUNTEER SPOTLIGHT: LAUREN-ALICE LAMANNA</strong>
+            <p>Lauren-Alice started volunteering in 2012 and became a very active volunteer immediately (even recruiting her boyfriend as a volunteer!). “When I started dating my other half Ryan (a fellow PAWS volunteer), I soon fell in love with his cat Baby and realized just how much having a pet adds to your life, and what a valuable part of the family they are“, says Lauren-Alice. She volunteers with the cats at the Adoption center, works adoption events and even became an orientation leader for our Adoption Center. What keeps her coming back?  “Aside from the wonderful PAWS cats and dogs, what keeps me coming back is the amazing PAWS staff. Seeing how committed they are to their jobs and how deeply they care for the animals is inspiring to me. And of course, my fellow volunteers are a pretty fantastic bunch too!”.  The PAWS staff is lucky to have Lauren-Alice as a member of the PAWS family! Volunteers, like Lauren-Alice, make it possible for us to do all that we can each day!</p>
+          </div>
+          
 
       </div>
     </div>
@@ -169,7 +186,7 @@
             <option value="Foster Parenting">Foster Parenting</option>
             <option value="General Questions">General Questions</option>
             <option value="Invite PAWS to Participate in Your Event">Invite PAWS to Participate in Your Event</option>
-            <option value="Spay/Neuter & Wellness Clinic">Spay/Neuter & Wellness Clinic</option>
+            <option value="Spay/Neuter &amp; Wellness Clinic">Spay/Neuter &amp; Wellness Clinic</option>
             <option value="Other">Other</option>
           </select><br>
             Name:<br>
@@ -185,31 +202,31 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 locations">
           <strong>OLD CITY ADOPTION CENTER</strong><br>
-  				100 N. 2nd Street (at Arch)
+  				100 N. 2nd Street (at Arch)<br>
   				Philadelphia, PA 19106<br>
   				Ph: 215-238-9901<br>
-  				Email: <a href="mailto:adopts@phillypaws.org">adoptions@phillypaws.org</a><br>
-  						<a href="http://phillypaws.org/locations/adoption-center/">Learn more</a>
+  				Email: <a class="mail" href="mailto:adopts@phillypaws.org">adoptions@phillypaws.org</a><br>
+  				<a class="mail" href="http://phillypaws.org/locations/adoption-center/">Learn more</a>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 locations">
           <strong>SPAY/NEUTER AND WELLNESS CLINIC</strong><br>
           2900 Grays Ferry Avenue<br>
           Philadelphia, PA 19146<br>
           Ph: 215-298-9680<br>
-          Email: <a href="mailto:gfclinic@phillypaws.org">gfclinic@phillypaws.org</a><br>
-          <a href="http://phillypaws.org/locations/spayneuter-wellness-clinic/">Learn more</a>
+          Email: <a class="mail" href="mailto:gfclinic@phillypaws.org">gfclinic@phillypaws.org</a><br>
+          <a class="mail" href="http://phillypaws.org/locations/spayneuter-wellness-clinic/">Learn more</a>
         </div>
 
-        <div class="col-md-4">
-          <strong>NE ADOPTION CENTER & LOW-COST CLINIC</strong>
+        <div class="col-md-4 locations">
+          <strong>NE ADOPTION CENTER &amp; LOW-COST CLINIC</strong><br>
           1810 Grant Avenue<br>
           Philadelphia, PA 1911<br>
           Ph: 215-545-9600<br>
-          Email: <a href="mailto:neclinic@phillypaws.org">neclinic@phillypaws.org</a><br>
-          <a href="http://phillypaws.org/locations/northeast/">Learn more</a>
+          Email: <a class="mail" href="mailto:neclinic@phillypaws.org">neclinic@phillypaws.org</a><br>
+          <a class="mail" href="http://phillypaws.org/locations/northeast/">Learn more</a>
         </div>
       </div>
 

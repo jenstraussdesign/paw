@@ -28,47 +28,78 @@ a:active{
 img.banner{
 	width:100%;
 	margin-bottom: 20px;
-
 }
-.givepic{
-	float:left;
-	width:40%;
-	margin-left: 3vw;
+div.title{
+	position:relative;
+	width:100%;
+	margin: auto 0;
+	left: 12%;
+	bottom:22vw;
+	z-index: 3;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	letter-spacing: 1vw;
+	font-size: 1.5vw;
+	text-shadow: 2px 2px 2px #737373;
+	blur-radius: 100;
 }
-
+#give{
+	margin-top:-4vw;
+}
+div.givemiddle{
+	padding-bottom: 2vw;
+	margin-left:-1vw;
+}
+p.givepar{
+	margin-top:2vw;
+}
+ul.givelist{
+	width:90%;
+}
+li.toplistitem{
+	margin-top:2vw;
+}
+iframe.youtube1{
+	margin-left:-2vw;
+	margin-top:2vw;
+	margin-bottom:2vw;
+}
 div.donatelink{
 	clear:left;
 	float:left;
-	margin-left:2vw;
 	margin-top: 1vw;
 	margin-bottom: 1vw;
 	background-color: white;
 	border: 1px black dashed;
 	padding-right:6px;
 	padding-left:6px;
+	padding-bottom:4px;
 	border-radius: 10px; /*this rounds the borders*/
 }
-
+div.donatelink:hover{
+	background-color: rgba(255, 51, 51, 0.9);
+}
 div.volunteerlink{
 	float:left;
 	background-color: white;
-	margin-left:3vw;
+	margin-left:6vw;
 	margin-top: 1vw;
 	margin-bottom: 1vw;
 	border-radius: 10px;
 	padding-right:6px;
 	padding-left:6px;
+	padding-bottom:4px;
 	border:1px black dashed;
 }
-
-div.adoptsection{
-	width:90%;
-	min-height:500px;
-	margin-right: auto;
-	margin-left:auto;
-	margin-bottom:40px;
+div.volunteerlink:hover{
 	background-color: rgba(255, 153, 51, 0.9);
-	border-radius: 10px;
+}
+#adopt{
+	margin-top:3vw;
+}
+ul.fees{
+	margin-top: 3vw;
+	margin-left:-2vw;
 }
 ul.animallist1{
 	float:left;
@@ -84,15 +115,31 @@ ul.animallist2{
 	line-height: 150%;
 	list-style-type: none;
 }
-
-ul.fees{
-	width:100%;
-	margin-left: 0;
-	margin-top: 5px;
+#volunteer{
+	margin-top:3vw;
 }
-
-.tab{
-  margin-left: 40px;
+div.volsection{
+	margin-top:2vw;
+}
+iframe.youtube2{
+	margin-top:1vw;
+	margin-bottom:2vw;
+}
+#contact{
+	margin-top:3vw;
+}
+div.locations{
+	text-align: center;
+}
+a.mail{
+	color:blue;
+	text-decoration: underline;
+}
+a.mail:hover{
+	font-weight:bold;
+}
+a.mail:visited{
+	color:purple;
 }
 
 /***************** NAVIGATION/HAMBURGER MENU ********************/
