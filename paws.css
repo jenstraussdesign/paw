@@ -1,19 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 div.logo{
-	float: left;
 	padding-left: 20px;
-	padding-top: 10px;
+	padding-top: 20px;
+	padding-bottom: 5px;
 }
 .navbar-fixed {
     top: 0;
     z-index: 100;
+		padding-bottom: 1vw;
   	position: fixed;
     width: 100%;
 }
 a:link{
 	text-decoration: none;
 	color:black;
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 15pt;
 }
 
 a:visited{
@@ -36,73 +40,89 @@ div.title{
 	left: 12%;
 	bottom:22vw;
 	z-index: 3;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 	color: white;
 	letter-spacing: 1vw;
 	font-size: 1.5vw;
 	text-shadow: 2px 2px 2px #737373;
 	blur-radius: 100;
 }
+
 #give{
 	margin-top:-4vw;
 }
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	background-color: rgba(255, 153, 51, 0.9);
+	padding-left:2%
+}
+
+p.givepar{
+	margin-top:2vw;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 22pt;
+}
+
 div.givemiddle{
+	padding-top: 2vw;
 	padding-bottom: 2vw;
 	margin-left:-1vw;
 }
-p.givepar{
-	margin-top:2vw;
-}
+
 ul.givelist{
 	width:90%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 10pt;
 }
 li.toplistitem{
-	margin-top:2vw;
+	margin-top:.5vw;
 }
 iframe.youtube1{
-	margin-left:-2vw;
+	margin-left:4vw;
 	margin-top:2vw;
 	margin-bottom:2vw;
 }
 div.donatelink{
-	clear:left;
 	float:left;
-	margin-top: 1vw;
-	margin-bottom: 1vw;
-	background-color: white;
-	border: 1px black dashed;
-	padding-right:6px;
-	padding-left:6px;
-	padding-bottom:4px;
-	border-radius: 10px; /*this rounds the borders*/
-}
-div.donatelink:hover{
-	background-color: rgba(255, 51, 51, 0.9);
-}
-div.volunteerlink{
-	float:left;
-	background-color: white;
 	margin-left:6vw;
-	margin-top: 1vw;
+	margin-top: -1vw;
 	margin-bottom: 1vw;
 	border-radius: 10px;
 	padding-right:6px;
 	padding-left:6px;
 	padding-bottom:4px;
-	border:1px black dashed;
+	background-color: rgba(255, 153, 51, 0.9);
+}
+div.donatelink:hover{
+	background-color: white;
+}
+div.volunteerlink{
+	float:left;
+	margin-left:6vw;
+	margin-top: -1vw;
+	margin-bottom: 1vw;
+	border-radius: 10px;
+	padding-right:6px;
+	padding-left:6px;
+	padding-bottom:4px;
+	background-color: rgba(255, 153, 51, 0.9);
 }
 div.volunteerlink:hover{
-	background-color: rgba(255, 153, 51, 0.9);
+	background-color: white;
 }
 #adopt{
 	margin-top:6vw;
 }
-.adoptpar{
-	margin-top:2vw;
-}
+
 h3.foster{
 	margin-top: 3vw;
 }
+
 h3.animals{
 	margin-left:2vw;
 }
