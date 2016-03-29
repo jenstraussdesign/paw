@@ -29,6 +29,7 @@ a:active{
 	text-decoration: none;
 	color:black;
 }
+
 img.banner{
 	width:100%;
 	margin-bottom: 20px;
@@ -56,8 +57,29 @@ div.title{
 h2{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	background-color: rgba(255, 153, 51, 0.9);
-	padding-left:2%
+	background-color: rgba(255, 153, 51, 0.5);
+	padding-left:2%;
+}
+
+h2.adop{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	background-color: rgba(188, 26, 10, 0.9);
+	padding-left:2%;
+}
+
+h2.vol{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	background-color: rgba(58, 145, 152, 0.8);
+	padding-left:2%;
+}
+
+h2.con{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	background-color: rgba(58, 145, 152, 0.8);
+	padding-left:2%;
 }
 
 p.givepar{
@@ -116,16 +138,36 @@ div.volunteerlink:hover{
 	background-color: white;
 }
 #adopt{
-	margin-top:6vw;
+	margin-top:1vw;
+}
+
+a.mail{
+	text-decoration: none;
+	color:black;
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 15pt;
 }
 
 h3.foster{
 	margin-top: 3vw;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 22pt;
 }
 
 h3.animals{
-	margin-left:2vw;
+	margin-left:13vw;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 22pt;
+
 }
+
+#MainImage{
+	margin-left: 5vw;
+}
+
 #MainDiv{
     position: relative;
     width:450px;
@@ -142,42 +184,54 @@ h3.animals{
     top: 50%;
     left: 2%;
 }
+
 #slider{
     width: 450px;
     overflow: hidden;
     position: relative;
-    margin-left:2vw;
+    margin-left:7vw;
+		margin-bottom: 2vw;
 }
+
 #slider .slides{
     display: block;
     width: 8000px;
     margin: 0;
     padding: 0;
 }
+
 #slider .slide{
 	float: left;
     list-style-type: none;
     height:120px;
 }
 #volunteer{
-	margin-top:6vw;
+	margin-top:1vw;
 }
+
 div.volsection{
 	margin-top:2vw;
 }
+
 iframe.youtube2{
 	margin-top:1vw;
 	margin-bottom:2vw;
 }
+
 #contact{
-	margin-top:6vw;
+	margin-top:1vw;
+}
+
+#address{
+	margin-top:1vw;
 }
 div.locations{
 	text-align: center;
 }
 a.mail{
-	color:blue;
-	text-decoration: underline;
+	color:black;
+	font-size: 14px;
+	text-decoration: none;
 }
 a.mail:hover{
 	font-weight:bold;
