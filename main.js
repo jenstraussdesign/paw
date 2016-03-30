@@ -4,10 +4,10 @@ $(document).ready(function() {
       }).get();
 
   $('#MainImage').attr('src', tn_array[1]); // set first image of the list as the MainImage src
-  $('#Previous').css("visibility", "hidden"); // hide the Previous button at the beginning 
+  $('#Previous').css("visibility", "hidden"); // hide the Previous button at the beginning
   var lengthImages = 11; // Length of the image list
   var CurrImage = 0; // Keep current Image index
-  var widthImg = 150; // Width of a image in the list 
+  var widthImg = 150; // Width of a image in the list
   var BottomLength = 11; // How many images currently shows in the bottom slide
   var IndexDiff;  //This variable is used in the bottom slider click event as a reference for animate the slider
   $('#Next').click(function () {

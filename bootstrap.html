@@ -7,12 +7,6 @@
 	<script src="main.js"></script>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="paws.css">
-  <style>
-  *{
-    color:black;
-  }
-
-  </style>
 </head>
 
 <body>
@@ -32,27 +26,27 @@
 
    <div onload="slideA()" id="home">
     <img id="img" class="banner" src="images/img1.jpg"/>
-    <div class="title">
+    <!-- <div class="title">
       <h1>PHILADELPHIA ANIMAL WELFARE SOCIETY</h1>
-    </div>
+    </div> -->
   </div>
 
 
 <!-- GIVE -->
     <div id="give" class="row" style="background-color: rgba(255, 153, 51, 0.5)">
-      <div class="col-md-4">
+      <div class="col-md-12">
         <h2>GIVE</h2>
+      </div>
+        <div class="col-md-4">
         <p class="givepar">
 					<p>Animal Rescue, Inc. relies solely on the generosity of donors to fund all projects we offer our community. $.91 of every dollar goes directly to our animal care.</p>
         	<p>PAWS is 100% donor funded, so every life we save truly depends on the generosity and commitment of our supporters. We spend $0.91 of every dollar directly on lifesaving efforts, animal care, and related programs to further our mission of making Philadelphia a place where every healthy and treatable pet is guaranteed a home.</p>
         	<p>What better gift for the animal lover on your list? Donate in honor of a loved one, and we'll send a card featuring rescued PAWS animals to notify them of your thoughtfulness. </p>
-
-
-      </div>
+        </div>
 
       <div class="col-md-4 givemiddle">
         <ul class="givelist">
-          <h3 class="h3">REASONS FOR GIVING</h3>
+          <h4>REASONS FOR GIVING</h4>
           <li class="toplistitem">$2000 can feed our sanctuary’s 600 cats for one month.</li>
           <li>$1000 can prevent fleas, ticks, and heartworm in our dog population for one month.</li>
           <li>$500 can provide the necessary bloodwork to diagnose five sick animals.</li>
@@ -68,11 +62,11 @@
         <iframe class="youtube1" width="420" height="236" src="https://www.youtube.com/embed/iGkOZ1C8cXk" frameborder="0" allowfullscreen></iframe>
 
         <div class="donatelink">
-          <h3><a href="https://www.z2systems.com/np/clients/phillypaws/donation.jsp" target="_blank">DONATE</a></h3>
+          <h3 class="button"><a href="https://www.z2systems.com/np/clients/phillypaws/donation.jsp" target="_blank">DONATE</a></h3>
         </div>
 
         <div class="volunteerlink">
-          <h3><a href="http://phillypaws.org/volunteer/" target="_blank">VOLUNTEER</a></h3>
+          <h3 class="button"><a href="http://phillypaws.org/volunteer/" target="_blank">VOLUNTEER</a></h3>
         </div>
       </div>
 
@@ -81,8 +75,10 @@
 
 <!-- ADOPT -->
     <div id="adopt" class="row" style="background-color: rgba(188, 26, 10, 0.7)">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <h2 class="adop">ADOPT</h2>
+      </div>
+      <div class="col-md-6">
         <p class="adoptpar">Adopting from Animal Rescue, Inc. can be one of the most rewarding experiences of your life.</p>
 
         <p>When you adopt a new best friend from PAWS, you are saving a life that might not have had a chance without your kindness. The first step is to fill out our adoption application, which is available here or at any of our adoption locations.</p>
@@ -113,13 +109,13 @@
         <div id="slider">
          <ul class="slides">
            <li class="slide">
-              <img src="images/animals/img2.jpg" alt="Image 2" width="150"/>
+              <img src="images/animals/img2.jpg" alt="Image 2" width="150" height="311"/>
            </li>
            <li class="slide">
-              <img src="images/animals/img3.jpg" alt="Image 3" width="150"/>
+              <img src="images/animals/img3.jpg" alt="Image 3" width="150" height="311"/>
            </li>
            <li class="slide">
-              <img src="images/animals/img4.jpg" alt="Image 3" width="150"/>
+              <img src="images/animals/img4.jpg" alt="Image 3" width="150" height="311"/>
            </li>
            <li class="slide">
               <img src="images/animals/img5.jpg" alt="Image 3" width="150"/>
@@ -152,16 +148,20 @@
 
 <!-- VOLUNTEER -->
     <div id="volunteer" class="row" style="background-color: rgba(58, 145, 152, 0.5)">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <h2 class="vol">VOLUNTEER</h2>
+      </div>
+      <div class="col-md-6">
           <p>Our dedicated volunteers mean the difference between life and death for Philadelphia’s homeless animals. Whether you help at adoption events, socialize or bathe animals at the shelter, transport them to foster homes or adoption locations, or provide administrative support, your time and compassion will make a tremendous difference in the lives of the animals who depend on us. We have volunteer opportunities to fit every schedule and preference. Please join us!</p>
 
           <iframe class="youtube2" width="560" height="315" src="https://www.youtube.com/embed/ezURdkyziic" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <div class="col-md-6 vol">
-          <div class="volsection"><strong>ARE YOU A CURRENT PAWS VOLUNTEER?</strong>
-          <p>Thank you for spending your free time with us! You can click <a href="http://phillypaws.org/volunteer/application/">here</a> to log-in to schedule a shift or to sign-up for an event.</p></div>
+          <div class="volsection">
+            <strong>ARE YOU A CURRENT PAWS VOLUNTEER?</strong>
+            <p>Thank you for spending your free time with us! You can click <a href="http://phillypaws.org/volunteer/application/">here</a> to log-in to schedule a shift or to sign-up for an event.</p>
+          </div>
 
           <div class="volsection">
             <strong>INTERESTED IN BECOMING A PAWS VOLUNTEER?</strong>
@@ -174,15 +174,15 @@
             <strong>VOLUNTEER SPOTLIGHT: LAUREN-ALICE LAMANNA</strong>
             <p>Lauren-Alice started volunteering in 2012 and became a very active volunteer immediately (even recruiting her boyfriend as a volunteer!). “When I started dating my other half Ryan (a fellow PAWS volunteer), I soon fell in love with his cat Baby and realized just how much having a pet adds to your life, and what a valuable part of the family they are“, says Lauren-Alice. She volunteers with the cats at the Adoption center, works adoption events and even became an orientation leader for our Adoption Center. What keeps her coming back?  “Aside from the wonderful PAWS cats and dogs, what keeps me coming back is the amazing PAWS staff. Seeing how committed they are to their jobs and how deeply they care for the animals is inspiring to me. And of course, my fellow volunteers are a pretty fantastic bunch too!”.  The PAWS staff is lucky to have Lauren-Alice as a member of the PAWS family! Volunteers, like Lauren-Alice, make it possible for us to do all that we can each day!</p>
           </div>
-
-
       </div>
     </div>
 
 <!-- CONTACT -->
     <div id="contact" class="row" style="background-color: rgba(72, 74, 89, 0.5)">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <h2 class="con">CONTACT</h2>
+      </div>
+      <div class="col-md-6">
         <p>Thank you for visiting! Please complete the form below to be contacted by the appropriate staff person.
         </p>
         <p><strong>Please note:</strong> PAWS rescues as many animals from the city’s animal control shelter as we have room for on a daily basis and remains full at all times. (Animals at the city’s high-volume shelter are all in danger of being killed.) Therefore, we typically do not take in animals from the public. However, if you have adopted an animal from PAWS that you cannot or will not keep, you must return it to us.
@@ -204,6 +204,8 @@
       <div class="col-md-6">
         <p><strong>If you suspect animal cruelty, neglect, or abuse:</strong> Please report it to the PSPCA by calling 1-866-601-SPCA or emailing <a href="mailto:cruelty@pspca.org" target="_top">cruelty@pspca.org</a>.
         </p>
+
+        <HR WIDTH="80%">
 
         <h4>Contact us!</h4>
         <p>Items marked with * are required</p>

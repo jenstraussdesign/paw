@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+*{
+  font-family: "Montserrat";
+  color: #000;
+}
+
 div.logo{
 	padding-left: 20px;
 	padding-top: 20px;
@@ -17,7 +22,7 @@ a:link{
 	color:black;
 	font-family: "Montserrat";
 	font-weight: 700;
-	font-size: 15pt;
+	font-size: ;
 }
 
 a:visited{
@@ -34,21 +39,22 @@ img.banner{
 	width:100%;
 	margin-bottom: 20px;
 }
-div.title{
+
+/*div.title{
 	position:relative;
 	width:100%;
 	margin: auto 0;
-	left: 12%;
+	/*left: 12%;*/
 	bottom:22vw;
 	z-index: 3;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	color: white;
 	letter-spacing: 1vw;
-	font-size: 1.5vw;
+	font-size: 1vw;
 	text-shadow: 2px 2px 2px #737373;
 	blur-radius: 100;
-}
+}*/
 
 #give{
 	margin-top:-4vw;
@@ -78,7 +84,7 @@ h2.vol{
 h2.con{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	background-color: rgba(58, 145, 152, 0.8);
+	background-color: rgba(72, 74, 89, 0.5);
 	padding-left:2%;
 }
 
@@ -105,7 +111,7 @@ li.toplistitem{
 	margin-top:.5vw;
 }
 iframe.youtube1{
-	margin-left:4vw;
+	margin-left:3vw;
 	margin-top:2vw;
 	margin-bottom:2vw;
 }
@@ -149,19 +155,15 @@ a.mail{
 	font-size: 15pt;
 }
 
-h3.foster{
-	margin-top: 3vw;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	font-size: 22pt;
+h3.animals{
+  margin-left: 15vw;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 22pt;
 }
 
-h3.animals{
-	margin-left:13vw;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	font-size: 22pt;
-
+h3.button{
+  font-size: 15pt;
 }
 
 #MainImage{
