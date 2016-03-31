@@ -281,8 +281,16 @@ nav a{
 	display: block;
 	font-size: 1.8rem;
 }
-nav a:hover{
-	background: rgba(166, 166, 166,.9);
+nav a.givelink:hover{
+	background: rgba(255, 153, 51, 0.5);
+	color: #fff;
+}
+nav a.adoptlink:hover{
+	background: rgba(188, 26, 10, 0.5);
+	color: #fff;
+}
+nav a.contactlink:hover{
+	background: rgba(58, 145, 152, 0.5);
 	color: #fff;
 }
 nav li{
