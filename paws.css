@@ -15,8 +15,7 @@ div.logo{
 .navbar-fixed {
     top: 0;
     z-index: 100;
-    padding-top: 2vw;
-	  padding-bottom: 1vw;
+   	padding-bottom: 1vw;
   	position: fixed;
     width: 100%;
 }
