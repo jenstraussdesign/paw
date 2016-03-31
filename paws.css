@@ -116,13 +116,13 @@ li.toplistitem{
 	margin-top:.5vw;
 }
 iframe.youtube1{
-	margin-left:-1vw;
+	margin-left:-2vw;
 	margin-top:2vw;
 	margin-bottom:2vw;
 }
 div.donatelink{
 	float:left;
-	margin-left:4vw;
+	margin-left:3vw;
 	margin-top: -1vw;
 	margin-bottom: 1vw;
 	border-radius: 10px;
@@ -231,6 +231,17 @@ iframe.youtube2{
 
 #address{
 	margin-top:1vw;
+}
+h4.socialmed{
+	margin-top:2vw;
+}
+a.facebook{
+	margin-right:1vw;
+}
+a.insta{
+	margin-right:1vw;
+}
+a.twitter{
 }
 div.locations{
 	text-align: center;
