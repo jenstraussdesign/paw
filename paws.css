@@ -15,7 +15,8 @@ div.logo{
 .navbar-fixed {
     top: 0;
     z-index: 100;
-	padding-bottom: 1vw;
+    padding-top: 2vw;
+	  padding-bottom: 1vw;
   	position: fixed;
     width: 100%;
 }
@@ -42,16 +43,17 @@ img.banner{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	margin-bottom: 5vw;
+  margin-top: 6vw;
+	margin-bottom: -3vw;
 }
 
-/*div.title{
+div.title{
 	position:relative;
 	width:100%;
 	margin: auto 0;
-	left: 12%;
-	bottom:22vw;
-	z-index: 3;
+	text-align: center;
+	bottom:5vw;
+	z-index: 1;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	color: white;
@@ -59,8 +61,9 @@ img.banner{
 	font-size: 1vw;
 	text-shadow: 2px 2px 2px #737373;
 	blur-radius: 100;
-}*/
+}
 
+/*
 #give{
 	margin-top:-4vw;
 }
@@ -94,14 +97,14 @@ h2.con{
 }
 
 p.givepar{
-	margin-top:2vw;
+	/*margin-top:1vw;*/
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	font-size: 22pt;
 }
 
 div.givemiddle{
-	padding-top: 2vw;
+	/*padding-top: 2vw;*/
 	padding-bottom: 2vw;
 	margin-left:-1vw;
 }
@@ -117,7 +120,7 @@ li.toplistitem{
 }
 iframe.youtube1{
 	margin-left:-2vw;
-	margin-top:2vw;
+	margin-top:1vw;
 	margin-bottom:2vw;
 }
 div.donatelink{
@@ -217,7 +220,7 @@ h3.button{
 }
 
 div.volsection{
-	margin-top:2vw;
+	/*margin-top:1vw;*/
 }
 
 iframe.youtube2{
@@ -299,7 +302,7 @@ nav label{ /*this is the menu icon*/
 	text-align: center;
 	line-height: 36px;
 	font-size: 1.6rem;
-	border-radius: 4px;
+	border-radius: 2px;
 }
 
 /*these are the burger menu icon properties*/
