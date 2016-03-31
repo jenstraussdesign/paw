@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
+html {
+	margin:2%;
+}
 *{
   font-family: "Montserrat";
   color: #000;
@@ -13,7 +15,7 @@ div.logo{
 .navbar-fixed {
     top: 0;
     z-index: 100;
-		padding-bottom: 1vw;
+	padding-bottom: 1vw;
   	position: fixed;
     width: 100%;
 }
@@ -36,15 +38,18 @@ a:active{
 }
 
 img.banner{
-	width:100%;
-	margin-bottom: 20px;
+	width:70%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 5vw;
 }
 
 /*div.title{
 	position:relative;
 	width:100%;
 	margin: auto 0;
-	/*left: 12%;*/
+	left: 12%;
 	bottom:22vw;
 	z-index: 3;
 	font-family: 'Montserrat', sans-serif;
@@ -111,13 +116,13 @@ li.toplistitem{
 	margin-top:.5vw;
 }
 iframe.youtube1{
-	margin-left:3vw;
+	margin-left:-1vw;
 	margin-top:2vw;
 	margin-bottom:2vw;
 }
 div.donatelink{
 	float:left;
-	margin-left:6vw;
+	margin-left:4vw;
 	margin-top: -1vw;
 	margin-bottom: 1vw;
 	border-radius: 10px;
@@ -144,7 +149,7 @@ div.volunteerlink:hover{
 	background-color: white;
 }
 #adopt{
-	margin-top:1vw;
+	margin-top:2vw;
 }
 
 a.mail{
@@ -179,12 +184,12 @@ h3.button{
 #child .NextButton{
     position: absolute;
     top: 50%;
-    right: 2%;
+    right: -17%;
 }
 #child .PreButton{
     position: absolute;
     top: 50%;
-    left: 2%;
+    left: 11%;
 }
 
 #slider{
@@ -192,7 +197,7 @@ h3.button{
     overflow: hidden;
     position: relative;
     margin-left:7vw;
-		margin-bottom: 2vw;
+	margin-bottom: 2vw;
 }
 
 #slider .slides{
@@ -208,7 +213,7 @@ h3.button{
     height:120px;
 }
 #volunteer{
-	margin-top:1vw;
+	margin-top:2vw;
 }
 
 div.volsection{
@@ -221,7 +226,7 @@ iframe.youtube2{
 }
 
 #contact{
-	margin-top:1vw;
+	margin-top:2vw;
 }
 
 #address{
@@ -307,11 +312,11 @@ nav label:before{
 	nav ul{
 		display: none;
 		box-shadow: 0 0 5px rgba(0,0,0, .7);
-		margin-right: -6%;
+		margin-right: 0%;
 		width: 20%;
 	}
 	nav li{
-		width: 60%;
+		width: 100%;
 		float:left;
 		background-color:rgba(255, 255, 255, 0.7);
 		line-height: 200%;
@@ -325,5 +330,15 @@ nav label:before{
 	nav input[type="checkbox"]:checked + ul li:nth-child(1){
 		color: #fff;
 		display:inline;
+	}
+	#child .NextButton{
+    position: absolute;
+    top: 50%;
+    right: -9%;
+	}
+	#child .PreButton{
+    position: absolute;
+    top: 50%;
+    left: 3%;
 	}
 }
