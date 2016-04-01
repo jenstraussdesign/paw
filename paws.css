@@ -6,12 +6,15 @@ html {
   font-family: "Montserrat";
   color: #000;
 }
-
-/*div.logo{
-	padding-left: px;
-	padding-top: 20px;
-	padding-bottom: 5px;
-}*/
+input[name="name, mail"]{
+  width: 230px;
+}
+input[name="mail"]{
+  width: 230px;
+}
+input[name="name"]{
+  width: 230px;
+}
 .navbar-fixed {
     top: 0;
     z-index: 100;
