@@ -65,48 +65,8 @@ div.title{
 	blur-radius: 100;
 }
 
-/*
-#give{
-	margin-top:-4vw;
-}
-
-h2{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	background-color: rgba(255, 153, 51, 0.5);
-	padding-left:2%;
-}
-
-h2.adop{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	background-color: rgba(188, 26, 10, 0.9);
-	padding-left:2%;
-}
-
-h2.vol{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	background-color: rgba(58, 145, 152, 0.8);
-	padding-left:2%;
-}
-
-h2.con{
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	background-color: rgba(72, 74, 89, 0.5);
-	padding-left:2%;
-}
-
-p.givepar{
-	/*margin-top:1vw;*/
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	font-size: 22pt;
-}
 
 div.givemiddle{
-	/*padding-top: 2vw;*/
 	padding-bottom: 2vw;
 	margin-left:-1vw;
 }
@@ -127,8 +87,6 @@ iframe.youtube1{
 }
 div.donatelink{
 	float:left;
-	margin-left:3vw;
-	margin-top: -1vw;
 	margin-bottom: 1vw;
 	border-radius: 10px;
 	padding-right:6px;
@@ -142,7 +100,6 @@ div.donatelink:hover{
 div.volunteerlink{
 	float:left;
 	margin-left:6vw;
-	margin-top: -1vw;
 	margin-bottom: 1vw;
 	border-radius: 10px;
 	padding-right:6px;
@@ -226,7 +183,8 @@ div.volsection{
 }
 
 iframe.youtube2{
-	margin-top:1vw;
+	margin-top:3vw;
+	margin-left: 2vw;
 	margin-bottom:2vw;
 }
 
@@ -292,8 +250,12 @@ nav a.adoptlink:hover{
 	background: rgba(188, 26, 10, 0.5);
 	color: #fff;
 }
-nav a.contactlink:hover{
+nav a.volunteerlink:hover{
 	background: rgba(58, 145, 152, 0.5);
+	color: #fff;
+}
+nav a.contactlink:hover{
+	background-color: rgba(72, 74, 89, 0.5);
 	color: #fff;
 }
 nav li{
@@ -336,15 +298,15 @@ nav label:before{
 	nav ul{
 		display: none;
 		box-shadow: 0 0 5px rgba(0,0,0, .7);
-		margin-right: 0%;
+		margin-right: 10%;
 		width: 20%;
 	}
 	nav li{
 		width: 100%;
 		float:left;
 		background-color:rgba(255, 255, 255, 0.7);
-		line-height: 200%;
-		font-size: 80%;
+		line-height: 300%;
+		font-size: 200%;
 	}
 	nav input[type="checkbox"]:checked + ul{
 		display: block;
@@ -365,4 +327,11 @@ nav label:before{
     top: 50%;
     left: 3%;
 	}
+
+}
+@media only screen and (max-width: 340px){
+	.youtube1, .youtube2{
+		display:none;
+	}
+
 }
